@@ -5,7 +5,7 @@
 using namespace std;
 	string randDNA(int seed, string bases, int length)
 	{
-		string randDNA = "";
+		string answer = "";
 		mt19937 eng1 (seed);
 		uniform_int_distribution<int> un(0, bases.size()-1);
 		
